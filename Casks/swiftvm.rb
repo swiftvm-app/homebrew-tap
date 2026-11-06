@@ -1,6 +1,6 @@
 cask "swiftvm" do
-  version "1.10.0"
-  sha256 "76a41d739f2e67e5fd91fbd4d992ef4260adae340956437f0891ec832f9aa2e2"
+  version "1.11.0"
+  sha256 "cf7cfcd5cb16cbf801ac38559b7a81d397dc93c0c14264cfdde7c7c48287b252"
 
   url "https://github.com/swiftvm-app/swiftvm/releases/download/v#{version}/SwiftVM-#{version}.dmg"
   name "SwiftVM"
