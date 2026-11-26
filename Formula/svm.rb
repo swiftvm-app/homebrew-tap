@@ -1,28 +1,28 @@
 class Svm < Formula
   desc "Linux virtual machines for AI agents"
   homepage "https://github.com/swiftvm-app/cli"
-  version "0.2.0"
+  version "0.2.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/swiftvm-app/cli/releases/download/v0.2.0/svm-macos-arm64.tar.gz"
-      sha256 "997b4d61886c11a9dba2290faf2f459926dabe8951381817bd51767cce3ba701"
+      url "https://github.com/swiftvm-app/cli/releases/download/v0.2.1/svm-macos-arm64.tar.gz"
+      sha256 "6f26e5de5d306c25a775e9f8d2337a73f39f64e4ebdf945ce9b16a42badf8dc4"
     end
     on_intel do
-      url "https://github.com/swiftvm-app/cli/releases/download/v0.2.0/svm-macos-x86_64.tar.gz"
-      sha256 "e4338e7ea1c79c07734cce9a94b8c1ec2bb62022af82f5482d5b870b7c594c9e"
+      url "https://github.com/swiftvm-app/cli/releases/download/v0.2.1/svm-macos-x86_64.tar.gz"
+      sha256 "a4f900e40090a9694e545f2516cb2302ac7e38e946bd721b7deac884715b79b3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/swiftvm-app/cli/releases/download/v0.2.0/svm-linux-arm64.tar.gz"
-      sha256 "a851e99231019a2b550279a25c8e7c00030dad4ea7426ccef6631ac340f6708f"
+      url "https://github.com/swiftvm-app/cli/releases/download/v0.2.1/svm-linux-arm64.tar.gz"
+      sha256 "38011b180a2282af462288a8814cde79aa0158e42f7d25b0760815cc9ee09d90"
     end
     on_intel do
-      url "https://github.com/swiftvm-app/cli/releases/download/v0.2.0/svm-linux-x86_64.tar.gz"
-      sha256 "a1c3bf902a7eed51031453c33651092a058475c78c7f49a49b3ec46a6b9e1029"
+      url "https://github.com/swiftvm-app/cli/releases/download/v0.2.1/svm-linux-x86_64.tar.gz"
+      sha256 "a52b604058a592fd19fbc1fd29ef90c2148ea6320dc42c440ab23afb26d330d7"
     end
   end
 
